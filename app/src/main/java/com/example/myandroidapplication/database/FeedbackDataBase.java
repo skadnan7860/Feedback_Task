@@ -51,28 +51,8 @@ public class FeedbackDataBase extends SQLiteOpenHelper {
         cv.put(COLUMN_DATE, date);
         db.insert(TABLE_NAME, null, cv);
 
-//        db.close();
     }
 
-    // Get all feedback items from the database
-    /*public ArrayList<String> getAllItems() {
-        ArrayList<String> itemList = new ArrayList<>();
-        SQLiteDatabase db = this.getReadableDatabase();
-        Cursor cursor = db.query(TABLE_NAME, new String[]{COLUMN_FEEDBACK, COLUMN_DATE}, null, null, null, null, null);
-
-        if (cursor != null) {
-            cursor.moveToFirst();
-            while (!cursor.isAfterLast()) {
-                @SuppressLint("Range") String feedback = cursor.getString(cursor.getColumnIndex(COLUMN_FEEDBACK));
-                @SuppressLint("Range") String date = cursor.getString(cursor.getColumnIndex(COLUMN_DATE));
-                itemList.add(feedback + " (" + date + ")"); // Format feedback and date together
-                cursor.moveToNext();
-            }
-            cursor.close();
-        }
-        db.close();
-        return itemList;
-    }*/
 
     public Cursor readAllData() {
 
