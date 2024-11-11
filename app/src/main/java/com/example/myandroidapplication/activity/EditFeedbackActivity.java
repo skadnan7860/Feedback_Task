@@ -1,4 +1,4 @@
-package com.example.myandroidapplication;
+package com.example.myandroidapplication.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -8,6 +8,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import com.example.myandroidapplication.database.FeedbackDataBase;
+import com.example.myandroidapplication.R;
 
 import java.util.Calendar;
 

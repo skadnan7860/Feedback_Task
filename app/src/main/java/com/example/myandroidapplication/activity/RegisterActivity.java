@@ -1,4 +1,4 @@
-package com.example.myandroidapplication;
+package com.example.myandroidapplication.activity;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -15,6 +15,8 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.myandroidapplication.database.MySqliteDataBase;
+import com.example.myandroidapplication.R;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
 

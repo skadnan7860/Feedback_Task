@@ -1,4 +1,4 @@
-package com.example.myandroidapplication;
+package com.example.myandroidapplication.database;
 
 import android.annotation.SuppressLint;
 import android.content.ContentValues;

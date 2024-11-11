@@ -1,4 +1,4 @@
-package com.example.myandroidapplication;
+package com.example.myandroidapplication.adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,6 +10,10 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.myandroidapplication.database.FeedbackDataBase;
+import com.example.myandroidapplication.R;
+import com.example.myandroidapplication.activity.EditFeedbackActivity;
 
 import java.util.ArrayList;
 
